@@ -41,7 +41,7 @@ The `validate_data_to_populate_db` function in the `cli.data_processing` module 
 
 Clone the repository and install the required dependencies
 
-1. Clone this reposotory to your local machine 
+1. Clone this reposotory to your local machine: [https://github.com/mikolaj314/Users-CLI.git](https://github.com/mikolaj314/Users-CLI.git)
 2. Create venv:
 ```bash
 python -m venv venv
