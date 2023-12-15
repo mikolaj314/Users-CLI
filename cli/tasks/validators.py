@@ -53,8 +53,7 @@ class UserDataProcessor:
         Returns:
             str: Cleaned telephone number.
         """
-        cleaned_number = tel_number.replace(" ", "").lstrip("0")
-        return cleaned_number[-9:]
+        return tel_number.replace(" ", "")[-9:].lstrip("0")
 
     @staticmethod
     def convert_str_into_datetime(date_string: str) -> datetime:
