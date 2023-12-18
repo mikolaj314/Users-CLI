@@ -41,7 +41,7 @@ The `validate_data_to_populate_db` function in the `cli.data_processing` module 
 
 Clone the repository and install the required dependencies
 
-1. Clone this reposotory to your local machine: [https://github.com/mikolaj314/Users-CLI.git](https://github.com/mikolaj314/Users-CLI.git)
+1. Clone this repository to your local machine: [https://github.com/mikolaj314/Users-CLI.git](https://github.com/mikolaj314/Users-CLI.git)
 2. Create venv:
 ```bash
 python -m venv venv
@@ -66,7 +66,7 @@ python script.py <command> --login <login> --password <password>
 
 ### Create database
 ```bash
-python script.py create_database --login <login> --password <password>
+python script.py create_database
 ```
 - Validates and processes data from various file formats (.json, .csv, .xml) from directory (default directory = data/).
 - Reject entries without provided telephone number

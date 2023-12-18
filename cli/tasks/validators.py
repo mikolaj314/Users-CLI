@@ -40,7 +40,7 @@ class UserDataProcessor:
         Returns:
             bool: True if the telephone number is valid, otherwise False.
         """
-        return len(tel_number) == 9
+        return len(tel_number) == 9 and tel_number.isdigit()
 
     @staticmethod
     def clean_telephone_number(tel_number: str) -> str:
